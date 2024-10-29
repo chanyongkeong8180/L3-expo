@@ -15,7 +15,7 @@ const App = () => {
     const [user, setUser] = useState('');
     const [pw, setPw] = useState('');
     return (
-      <View>
+      <View style={{margin: 10, padding: 10}}>
           <Text>User Type:</Text>
           <RNPickerSelect
               onValueChange={(value) => setType(value)}
